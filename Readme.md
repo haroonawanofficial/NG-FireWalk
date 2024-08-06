@@ -14,12 +14,12 @@ Next Generation Firewalk is a comprehensive tool designed for advanced network r
 # Comparison: NG FireWalk vs. Triditional Firewalk 5.0
 | Feature/Aspect 	| NG FireWalk |  Tridtional Firewalk 
 |----------------|---------------|---------------------------------------------------------------------------------------------------|
-| Purpose	| Network security assessment	Network security assessment| 
+| Purpose	| Network security assessment	| Network security assessment| 
 | Technique	| Combines traditional scans with advanced evasion and DPI	|  Uses TTL to probe firewall rule sets| 
 | Deep Packet Inspection| 	Yes	|  No| 
 | Evasion Techniques	| Extensive (ICMP, TCP, UDP variations, random payloads)	|  Limited (TTL manipulation)| 
 | Protocol Identification	| Advanced, identifies protocols on non-standard ports	|  Basic, identifies through port probing| 
-| Custom Tool Integration| 	Yes	No| 
+| Custom Tool Integration| 	Yes	| No| 
 | Result Details	| Comprehensive (ports, firewall, IDS/IPS, segments, DPI)	|  Limited to firewall rule sets and ACLs| 
 | Multi-threading| 	Yes, with ThreadPoolExecutor | 	No, typically sequential| 
 | Efficiency| 	High (due to concurrent scanning)	| Moderate (sequential scanning can be time-consuming)| 
