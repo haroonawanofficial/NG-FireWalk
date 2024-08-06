@@ -69,7 +69,7 @@ The following table lists the AI/ML-based security systems that the Covert Netwo
 | F5 Networks                    | tcp_syn_flood, randomized_payload_scan                                                           |
 | Imperva SecureSphere           | ai_ml_firewall_bypass                                                                           |
 
-#Usage
+# Usage
 ```bash
 python ng-firewalk.py --target <target_ip(s)> --ports <target_port(s)> [options]
 Options
@@ -85,12 +85,9 @@ Example
 python ng-firewalk.py --target 192.168.1.1 --ports 80,443 --evasion --firewalk
 ```
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#Contributing
-Please read CONTRIBUTING.md for details on the code of conduct, and the process for submitting pull requests.
-
-#Contact
+# Contact
 - Haroon Ahmad Awan
 - haroon@cyberzeus.pk
