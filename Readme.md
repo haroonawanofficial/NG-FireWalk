@@ -11,7 +11,7 @@ Next Generation Firewalk is a comprehensive tool designed for advanced network r
 - Custom Tool Integration: Ability to run custom tools and include their results in the analysis.
 - Deep Packet Inspection: Analyzes the packets sent and received for better understanding and logging.
 
-# Side-by-Side Comparison: NG FireWalk vs. Firewalk 5.0
+# Comparison: NG FireWalk vs. Triditional Firewalk 5.0
 | Feature/Aspect 	| NG FireWalk |  Tridtional Firewalk 
 |----------------|---------------|---------------------------------------------------------------------------------------------------|
 | Purpose	| Network security assessment	Network security assessment| 
@@ -26,7 +26,7 @@ Next Generation Firewalk is a comprehensive tool designed for advanced network r
 | Complexity| 	Higher (due to advanced features)	| Lower (simpler tool)| 
 | Resource Intensity	| Higher (DPI and concurrency require more resources)	| Lower (basic probing)| 
 | AI/ML | Supported | Not Supported | 
-| Output	| Detailed insights including DPI results and evasion effectiveness	Firewall rules and ACL configurations|
+| Output	| Detailed insights including DPI results and evasion effectiveness | 	Firewall rules and ACL configurations|
 
 ## Evasion Techniques
 | Techniques                    | Description                                                                                       |
