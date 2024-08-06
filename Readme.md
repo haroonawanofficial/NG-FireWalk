@@ -71,7 +71,7 @@ The following table lists the AI/ML-based security systems that the Covert Netwo
 
 #Usage
 ```bash
-python covert_scan.py --target <target_ip(s)> --ports <target_port(s)> [options]
+python ng-firewalk.py --target <target_ip(s)> --ports <target_port(s)> [options]
 Options
 --target: Target IP address (comma-separated for multiple targets).
 --ports: Comma-separated list of target ports (for TCP/UDP scans).
