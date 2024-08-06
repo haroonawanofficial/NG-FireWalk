@@ -49,7 +49,7 @@ Here's the text without any formatting that you can copy and paste:
 | ai_ml_firewall_bypass         | Specific technique to evade AI/ML-based firewalls using randomized user agents.                    |
 
 ## AI/ML-based Firewalls, IDS, and IPS Bypassed
-The following table lists the AI/ML-based security systems that the Covert Network Scanner can bypass, along with the corresponding techniques:
+The following table lists the AI/ML-based security systems that the Ng FireWalk can bypass, along with the corresponding techniques:
 
 | Security System                | Bypassing Technique                                                                             |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
