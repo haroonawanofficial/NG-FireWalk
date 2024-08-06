@@ -84,10 +84,14 @@ Example
 ```bash
 python ng-firewalk.py --target 192.168.1.1 --ports 80,443 --evasion --firewalk
 ```
-
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Screenshot
+![Firewalk](https://i.ibb.co/Vj5LCxg/firewalk1.png)
 
 # Contact
 - Haroon Ahmad Awan
 - haroon@cyberzeus.pk
+
+
