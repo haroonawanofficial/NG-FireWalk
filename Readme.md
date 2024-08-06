@@ -88,7 +88,7 @@ python ng-firewalk.py --target 192.168.1.1 --ports 80,443 --evasion --firewalk
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Screenshot
-![Firewalk](https://i.ibb.co/Vj5LCxg/firewalk1.png)
+![Firewalk](https://i.ibb.co/r77WGZ4/firewalk1.png)
 
 # Contact
 - Haroon Ahmad Awan
