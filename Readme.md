@@ -69,6 +69,24 @@ The following table lists the AI/ML-based security systems that the Ng FireWalk 
 | F5 Networks                    | tcp_syn_flood, randomized_payload_scan                                                           |
 | Imperva SecureSphere           | ai_ml_firewall_bypass                                                                           |
 
+# Deep Packet Inspection (DPI)
+- Packet Content Analysis: DPI inspects the data part (payload) and header of packets as they pass through an inspection point.
+- Protocol Identification: Identifies the protocol being used even if it's running on a non-standard port.
+- Malicious Activity Detection: Detects and blocks malicious activities such as viruses, worms, and intrusions by analyzing packet contents.
+- Data Leakage Prevention: Monitors data to prevent sensitive information from leaving the network.
+- Application Control: Controls and monitors applications to enforce security policies and optimize network performance.
+- Traffic Shaping: Manages and prioritizes network traffic to ensure critical applications receive the necessary bandwidth.
+- Compliance Enforcement: Ensures compliance with regulatory requirements by monitoring and logging data traffic.
+
+# Benefits of Scanning
+-  Security Assessment: Identifies open ports and services to assess vulnerabilities and potential attack vectors.
+- Firewall and IDS/IPS Detection: Determines the presence of firewalls and Intrusion Detection/Prevention Systems, allowing for security posture evaluation.
+- Network Mapping: Provides a map of the network, showing active devices and their connectivity, useful for network management and troubleshooting.
+- Evasion Technique Testing: Tests the effectiveness of evasion techniques against security measures, helping to refine and improve network defenses.
+- Compliance Checks: Ensures that network configurations comply with security policies and regulatory requirements.
+- Performance Optimization: Identifies misconfigurations and performance bottlenecks to optimize network performance.
+- Threat Intelligence: Collects data to enhance threat intelligence and improve proactive defense mechanisms.
+
 # Usage
 ```bash
 python ng-firewalk.py --target <target_ip(s)> --ports <target_port(s)> [options]
